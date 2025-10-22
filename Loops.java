@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Loops {
 
     public static void main(String agrs[]){
@@ -20,11 +22,20 @@ public class Loops {
 
         // now we'lltry for Do-While loop
 
-        int i=0;
-        do{
-            System.out.println(i);
-            i++;
-        }while(i<15);
+        // int i=0;
+        // do{
+        //     System.out.println(i);
+        //     i++;
+        // }while(i<15);
+
+        // Practice with basic Question
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int sum =0;
+        for(int i=1;i<=n;i++){
+            sum = sum+i;
+        }
+        System.out.println(sum);
 
     }
 
