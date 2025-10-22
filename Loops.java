@@ -12,11 +12,20 @@ public class Loops {
 
         // try for while loop
 
+        // int i=0;
+        // while (i<17) {
+        //     System.out.println(i);
+        //     i++;
+        // }
+
+        // now we'lltry for Do-While loop
+
         int i=0;
-        while (i<17) {
+        do{
             System.out.println(i);
             i++;
-        }
+        }while(i<15);
+
     }
 
 }
