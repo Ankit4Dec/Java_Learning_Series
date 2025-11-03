@@ -8,9 +8,15 @@ public class Functions {
     // }
 
 
-    public static int calculateSum(int a, int b){
-        int sum = a + b;
-        return sum;
+    // public static int calculateSum(int a, int b){
+    //     int sum = a + b;
+    //     return sum;
+    // }
+
+
+    public static int mulForTwoNum(int a, int b){
+        int product = a * b;
+        return product;
     }
 
     public static void main(String args[]){
@@ -19,9 +25,11 @@ public class Functions {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int sum = calculateSum(a, b);
-        System.out.println(sum);
-        
+        // int sum = calculateSum(a, b);
+        // System.out.println(sum);
+       
+        int product = mulForTwoNum(a, b);
+        System.out.println("Multiply for Two Number is => "+ product);
 
     }
     
