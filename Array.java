@@ -5,9 +5,13 @@ public class Array {
         marks[0] = 75; //Phy
         marks[1] = 95; //Maths
         marks[2] = 62; //Chem
-        System.out.println(marks[0]);
-        System.out.println(marks[1]);
-        System.out.println(marks[2]);
+        // System.out.println(marks[0]);
+        // System.out.println(marks[1]);
+        // System.out.println(marks[2]);
+
+        for(int i=0; i<3 ; i++){
+            System.out.println(marks[i]);
+        }
     }
     
 }
