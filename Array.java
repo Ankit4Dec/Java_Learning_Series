@@ -18,12 +18,18 @@ public class Array {
         // System.out.println(marks[1]);
         // System.out.println(marks[2]);
 
+        //Input
         for(int i=0;i<size;i++){
             numbers[i] = sc.nextInt();
         }
 
-        for(int i=0; i<size ; i++){
-            System.out.println(numbers[i]);
+        int x = sc.nextInt();
+
+        //Output
+        for(int i=0; i<numbers.length ; i++){
+            if(numbers[i] == x){
+                System.out.println("X found at index : " + i);
+            }
         }
     }
     
